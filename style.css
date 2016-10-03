@@ -1,0 +1,63 @@
+#wood{
+	top:0px;
+	left:0px;
+	position: absolute;
+	z-index: 0
+}
+#blue-paper{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 5;
+}
+#grid{
+	position: absolute;
+	transform: rotate(30deg);
+	top:50px;
+	right:50px;
+	z-index: 10;
+}
+#sketchbook{
+	position: absolute;
+	top:400px;
+	left:100px;
+	transform: rotate(-20deg);
+	z-index: 20;
+	transition: transform .5s ease;
+}
+#sketchbook:hover{
+	transform: scale(1.2) rotate(-20deg);
+}
+#flower{
+	position: relative;
+	transform: rotate(-90deg);
+	top: 120px;
+	left:900px;
+	z-index: 25;
+	transition: transform .5s ease;
+}
+#flower:hover{
+	transform: scale(1.2) rotate(-90deg);
+}
+#paint{
+	position: absolute;
+	top:1000px;
+	left:600px;
+	transform: rotate(-20deg);
+	z-index: 30;
+	transition: transform .5s ease;
+}
+#paint:hover{
+	transform: scale(1.2) rotate(-20deg);
+}
+#phone{
+	position: absolute;
+	top:600px;
+	left:1900px;
+	transform: rotate(-50deg);
+	z-index: 20;
+	transition: transform .5s ease;
+}
+#phone:hover{
+	transform: scale(1.2) rotate(-50deg);
+}
